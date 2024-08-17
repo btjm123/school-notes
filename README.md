@@ -4,9 +4,106 @@ dump of my school notes
 
 ## c2030s
 
+### week 1
+- T `:<` S (`T` is is the type, `S` is the supertype). From `S` to `T`, GO **DOWN**
+  
 <img width="998" alt="Screenshot 2024-08-13 at 3 06 24 AM" src="https://github.com/user-attachments/assets/db6b199d-4e98-4c70-9ac9-5308e346e146">
 
 [https://nus-cs2030s.github.io/2425-s1/index.html](https://nus-cs2030s.github.io/2425-s1/index.html)
 
 
 <img width="755" alt="Screenshot 2024-08-13 at 3 11 17 AM" src="https://github.com/user-attachments/assets/aec0d900-979e-40a2-9ede-04b330bc0e07">
+
+### week 2
+[https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html)
+
+- Instance methods can access both instance AND class variables/methods
+- Class methods can only access class variables/methods BUT NOT instance variables/access
+
+For example, the following code wouldn't compile:
+```java
+public class A {
+  private int x;
+
+  // class method cannot access instance variables/methods!
+  public static getX() {
+    return this.x;
+  }
+}
+```
+
+- Constructors can be public/private
+- A potential use case for private constructors would be delegation of public constructors to the private constructor:
+
+```java
+public class MyClass {
+     private final String value;
+     private final String type;
+
+     public MyClass(int x){
+         this(Integer.toString(x), "int");
+     }
+
+     public MyClass(boolean x){
+         this(Boolean.toString(x), "boolean");
+     }
+
+     private MyClass(String value, String type){
+         this.value = value;
+         this.type = type;
+     }
+}
+```
+
+- Overriding equals method, [source](https://stackoverflow.com/questions/8180430/how-to-override-equals-method-in-java)
+```java
+// METHOD OVERLOADING
+public boolean equals(People other){
+
+// ACTUALLY OVERRIDES EQUAL
+@Override // this annoation is not actually required, but it makes code 1) readable, 2) catches bug at compile-time
+public boolean equals(Object other){
+```
+
+## cs2100
+
+<img width="358" alt="Screenshot 2024-08-18 at 2 53 35 AM" src="https://github.com/user-attachments/assets/80e0cd4e-5e34-4efc-bbec-e3060b2340a4">
+
+<img width="505" alt="Screenshot 2024-08-18 at 3 25 16 AM" src="https://github.com/user-attachments/assets/aa6d20d4-d7df-4433-8e87-5f6b57cac0f0">
+
+- unsigned numbers: non-negative values
+- signed numbers: all values
+
+<img width="499" alt="Screenshot 2024-08-18 at 3 20 00 AM" src="https://github.com/user-attachments/assets/5cee56ba-897f-4e7a-8b49-600df418eb17">
+
+- Given a number `x` which can be expressed as an `n-bit` binary number, its negated value can be obtained in 1s complement representation with `-x = 2^n - x - 1`.
+- Or can you just invert the bits LMAO
+
+```
+x = 12 = b00001100
+-x = 2^8 - 12 - 1 = 243 = b11110011
+```
+
+<img width="368" alt="Screenshot 2024-08-18 at 3 20 56 AM" src="https://github.com/user-attachments/assets/ede46323-9bb2-4425-b975-db3120096fcf">
+
+<img width="507" alt="Screenshot 2024-08-18 at 3 26 56 AM" src="https://github.com/user-attachments/assets/e17b2ba2-9ff4-4a1b-8dfc-88eacadab7c4">
+
+- Given a number `x` which can be expressed as an `n-bit` binary number, its negated value can be obtained in 2s complement representation with `-x = 2^n - x`.
+- Or can you just invert the bits and +1 
+```
+x = 12 = b00001100
+-x = 2^8 - 12 = 244 = b11110100
+
+INVERSION of bits
+b00001100 = b11110011
+ADD ONE
+b11110011 = b11110100
+
+
+OR find the first 1 leftwards and invert everything after
+11110100
+
+REMEMBER TO THROW AWAY THE DP for fractional numbers
+```
+
+<img width="498" alt="Screenshot 2024-08-18 at 3 32 44 AM" src="https://github.com/user-attachments/assets/eb9f8de2-0aaf-4261-b179-0f60d4f175f7">
