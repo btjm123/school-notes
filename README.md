@@ -100,10 +100,32 @@ ADD ONE
 b11110011 = b11110100
 
 
-OR find the first 1 leftwards and invert everything after
+Prof Colin trick: From its positive equivalent in 2s complement representation, find the first 1 leftwards and invert everything after
 11110100
 
 REMEMBER TO THROW AWAY THE DP for fractional numbers
 ```
 
 <img width="498" alt="Screenshot 2024-08-18 at 3 32 44 AM" src="https://github.com/user-attachments/assets/eb9f8de2-0aaf-4261-b179-0f60d4f175f7">
+
+```
+Prof Colin trick: Given an 4-bit number in 2s complement, represent the MSB (i.e signed bit) as negative (-2^n-1) to facilitate conversion
+
+-8  |  4  |  2  |   1
+
+Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e signed bit) as negative (-2^n-1 + 1) to facilitate conversion
+
+-7  |  4  |  2  |   1
+```
+
+<img width="464" alt="Screenshot 2024-08-18 at 4 38 15 PM" src="https://github.com/user-attachments/assets/0eae3eed-39b1-4d69-bc89-b8581ea5021e">
+
+### excess-4 representation
+
+- convert the binary to integer, account for offset of 4
+- Given n-bit number, do an excess of 2^(n-1) representation.(i.e 3-bit, we do excess 4 representation | for 4-bit, we do excess 8 representation)
+
+  
+<img width="469" alt="Screenshot 2024-08-18 at 5 00 54 PM" src="https://github.com/user-attachments/assets/ff9ab727-3faa-4e17-8439-8f5d051149fc">
+
+<img width="460" alt="Screenshot 2024-08-18 at 5 03 57 PM" src="https://github.com/user-attachments/assets/aa8b9176-a88a-470e-92b4-f26f9d8b2ef7">
