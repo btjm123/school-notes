@@ -99,7 +99,7 @@ class Circle {
   /...
 }
 public void f(Circle c) {
-  Object o = o;
+  Object o = c;
 }
 ```
 - Dynamic binding only applies to instance method invocation!
