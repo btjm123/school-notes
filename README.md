@@ -5,7 +5,7 @@ dump of my school notes
 ## c2030s
 
 ### week 1
-- T `:<` S (`T` is is the type, `S` is the supertype). From `S` to `T`, GO **DOWN**
+- T `:<` S (`T` is is the type, `S` is the supertype). From `S` to `T`, GO **DOWN** IS *NARROWING CONVERSION*
   
 <img width="998" alt="Screenshot 2024-08-13 at 3 06 24 AM" src="https://github.com/user-attachments/assets/db6b199d-4e98-4c70-9ac9-5308e346e146">
 
@@ -65,6 +65,44 @@ public boolean equals(People other){
 public boolean equals(Object other){
 ```
 
+### week 3
+
+- overloading depends on method signature (same name is OK, different parameters list)
+
+
+Following code only throws runtime error *NOT COMPILE-TIME ERROR*, coz runtime type of `o` can be Circle
+```java
+class Circle {
+  /...
+}
+public void f(Object o) {
+  Circle c = (Circle) o; // narrowing conversion
+}
+```
+
+To prevent runtime error,
+```java
+class Circle {
+  /...
+}
+public void f(Object o) {
+  if (o instanceof Circle) {
+      Circle c = (Circle) o; // narrowing conversion
+  }
+}
+```
+
+- Widening conversion on the other hand is always okay tho!
+- Don't even need typecasting
+```java
+class Circle {
+  /...
+}
+public void f(Circle c) {
+  Object o = o;
+}
+```
+- Dynamic binding only applies to instance method invocation!
 ## cs2100
 
 <img width="358" alt="Screenshot 2024-08-18 at 2 53 35 AM" src="https://github.com/user-attachments/assets/80e0cd4e-5e34-4efc-bbec-e3060b2340a4">
