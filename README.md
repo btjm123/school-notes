@@ -221,5 +221,10 @@ Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e
 
 ### week 3
 
+- MIPS register stats
 <img width="800" alt="Screenshot 2024-08-28 at 5 03 36 PM" src="https://github.com/user-attachments/assets/6c68c060-af15-49b2-9494-4afda5938986">
+
+- translation of add command to MIPS
+<img width="1150" alt="Screenshot 2024-08-28 at 5 05 14 PM" src="https://github.com/user-attachments/assets/a70a2acb-84ef-462e-ad54-f677d047e0d3">
+
 
