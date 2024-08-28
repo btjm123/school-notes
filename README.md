@@ -99,7 +99,9 @@ class Circle {
 public void f(Circle c) {
   Object o = c;
 }
-```
+
+<img width="573" alt="Screenshot 2024-08-28 at 4 29 39 PM" src="https://github.com/user-attachments/assets/b6403e57-9827-42eb-b193-42cf11aef24a">
+
 - Dynamic binding only applies to instance method invocation!
 
 - Overidding 2-step process
