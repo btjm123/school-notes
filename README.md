@@ -68,6 +68,7 @@ public boolean equals(Object other){
 ### week 3
 
 - overloading depends on method signature (same name is OK, different parameters list)
+
 Following code only throws runtime error *NOT COMPILE-TIME ERROR*, coz runtime type of `o` can be Circle
 ```java
 class Circle {
@@ -148,7 +149,11 @@ class B extends A {
 - Abstract classes
   
 <img width="1436" alt="Screenshot 2024-08-28 at 4 31 52 PM" src="https://github.com/user-attachments/assets/26d38dc9-a1fe-455a-a589-086e0d8a1640">
-  
+
+- Interfaces
+
+<img width="1440" alt="Screenshot 2024-08-28 at 4 36 05 PM" src="https://github.com/user-attachments/assets/35d6deda-e822-42de-9cbc-30f49c278995">
+
 ## cs2100
 
 <img width="358" alt="Screenshot 2024-08-18 at 2 53 35 AM" src="https://github.com/user-attachments/assets/80e0cd4e-5e34-4efc-bbec-e3060b2340a4">
