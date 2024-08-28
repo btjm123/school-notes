@@ -239,5 +239,7 @@ Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e
 <img width="500" alt="Screenshot 2024-08-28 at 5 47 55 PM" src="https://github.com/user-attachments/assets/1aa68e62-221e-4072-a48d-6316816e157a">
 <img width="500" alt="Screenshot 2024-08-28 at 5 47 43 PM" src="https://github.com/user-attachments/assets/48b5a3be-1b5a-4538-bbe0-49d413e7de4d">
 
+<img width="806" alt="Screenshot 2024-08-28 at 6 02 13 PM" src="https://github.com/user-attachments/assets/dc5a429a-7996-45c1-80c3-eafa424b9d38">
+
 
 
