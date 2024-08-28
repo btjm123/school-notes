@@ -144,6 +144,11 @@ class B extends A {
     }
 }
 ```
+
+- Abstract classes
+  
+<img width="1436" alt="Screenshot 2024-08-28 at 4 31 52 PM" src="https://github.com/user-attachments/assets/26d38dc9-a1fe-455a-a589-086e0d8a1640">
+  
 ## cs2100
 
 <img width="358" alt="Screenshot 2024-08-18 at 2 53 35 AM" src="https://github.com/user-attachments/assets/80e0cd4e-5e34-4efc-bbec-e3060b2340a4">
