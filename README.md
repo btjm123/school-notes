@@ -68,8 +68,6 @@ public boolean equals(Object other){
 ### week 3
 
 - overloading depends on method signature (same name is OK, different parameters list)
-
-
 Following code only throws runtime error *NOT COMPILE-TIME ERROR*, coz runtime type of `o` can be Circle
 ```java
 class Circle {
@@ -103,6 +101,47 @@ public void f(Circle c) {
 }
 ```
 - Dynamic binding only applies to instance method invocation!
+
+- Overidding 2-step process
+  - Check if method signature is the same
+  - If it is, check the return type. ensure return type is the type or subtype.
+ ```java
+class A {
+    public A gay() {
+        System.out.println("A::gay");
+        return null;
+    }
+}
+
+class B extends A {
+    // return type is actual type
+    @Override
+    public A gay() {
+        System.out.println("B::gay");
+        return null;
+    }
+    
+    // return type is a subtype
+    @Override
+    public B gay() {
+        System.out.println("B::gay");
+        return null;
+    }
+    
+    // doesnt work coz diff return type
+    @Override
+    public int gay() {
+        System.out.println("B::gay");
+        return null;
+    }
+    
+    // this is method overloading !
+    public A gay(int x) {
+        System.out.println("B::gay");
+        return null;
+    }
+}
+```
 ## cs2100
 
 <img width="358" alt="Screenshot 2024-08-18 at 2 53 35 AM" src="https://github.com/user-attachments/assets/80e0cd4e-5e34-4efc-bbec-e3060b2340a4">
