@@ -229,6 +229,7 @@ Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e
 
 <img width="1154" alt="Screenshot 2024-08-28 at 5 17 27 PM" src="https://github.com/user-attachments/assets/e9d68399-f42e-459a-a4cf-08ac1a78a915">
 
+- assignment operator in MIPS
 
-
+<img width="1142" alt="Screenshot 2024-08-28 at 5 20 20 PM" src="https://github.com/user-attachments/assets/0c7b43c8-8fad-48a6-bf52-7ed61928869e">
 
