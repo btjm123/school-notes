@@ -222,14 +222,22 @@ Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e
 ### week 3
 
 - MIPS register stats
-<img width="800" alt="Screenshot 2024-08-28 at 5 03 36 PM" src="https://github.com/user-attachments/assets/6c68c060-af15-49b2-9494-4afda5938986">
+<img width="500" alt="Screenshot 2024-08-28 at 5 03 36 PM" src="https://github.com/user-attachments/assets/6c68c060-af15-49b2-9494-4afda5938986">
 
 - `add` and `addi` command in MIPS
-<img width="1150" alt="Screenshot 2024-08-28 at 5 05 14 PM" src="https://github.com/user-attachments/assets/a70a2acb-84ef-462e-ad54-f677d047e0d3">
+<img width="500" alt="Screenshot 2024-08-28 at 5 05 14 PM" src="https://github.com/user-attachments/assets/a70a2acb-84ef-462e-ad54-f677d047e0d3">
 
-<img width="1154" alt="Screenshot 2024-08-28 at 5 17 27 PM" src="https://github.com/user-attachments/assets/e9d68399-f42e-459a-a4cf-08ac1a78a915">
+<img width="500" alt="Screenshot 2024-08-28 at 5 17 27 PM" src="https://github.com/user-attachments/assets/e9d68399-f42e-459a-a4cf-08ac1a78a915">
 
 - assignment operator in MIPS
 
-<img width="1142" alt="Screenshot 2024-08-28 at 5 20 20 PM" src="https://github.com/user-attachments/assets/0c7b43c8-8fad-48a6-bf52-7ed61928869e">
+<img width="500" alt="Screenshot 2024-08-28 at 5 20 20 PM" src="https://github.com/user-attachments/assets/0c7b43c8-8fad-48a6-bf52-7ed61928869e">
+<img width="500" alt="Screenshot 2024-08-28 at 5 44 08 PM" src="https://github.com/user-attachments/assets/e2083229-e38e-4dd7-8658-b29942f3609c">
+<img width="500" alt="Screenshot 2024-08-28 at 5 44 21 PM" src="https://github.com/user-attachments/assets/9c3ec645-42ea-4497-ae24-8bd8f90bd5e0">
+<img width="500" alt="Screenshot 2024-08-28 at 5 45 04 PM" src="https://github.com/user-attachments/assets/eed9e718-834e-4f22-8c0c-63ff0598d392">
+<img width="500" alt="Screenshot 2024-08-28 at 5 45 14 PM" src="https://github.com/user-attachments/assets/dd245783-0c99-4c9f-8de2-082b04731ca6">
+<img width="500" alt="Screenshot 2024-08-28 at 5 47 55 PM" src="https://github.com/user-attachments/assets/1aa68e62-221e-4072-a48d-6316816e157a">
+<img width="500" alt="Screenshot 2024-08-28 at 5 47 43 PM" src="https://github.com/user-attachments/assets/48b5a3be-1b5a-4538-bbe0-49d413e7de4d">
+
+
 
