@@ -245,3 +245,4 @@ Prof Colin trick: Given an 4-bit number in 1s complement, represent the MSB (i.e
 EXCEPT FOR ANDI, ORI, AND XORI
 
 <img width="1037" alt="Screenshot 2024-09-05 at 12 52 06 AM" src="https://github.com/user-attachments/assets/2cc68e6b-721d-4ba7-88d0-a4cf42c3e59f">
+<img width="1031" alt="Screenshot 2024-09-05 at 1 09 09 AM" src="https://github.com/user-attachments/assets/5af563b4-f40b-4620-a183-2f473ab5b126">
